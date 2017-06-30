@@ -10,7 +10,6 @@ namespace FortuneTeller
     {
         static void Main(string[] args)
         {
-            //test
             //Part 1
             //Collect user input & initialize variables
 
