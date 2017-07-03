@@ -12,6 +12,7 @@ namespace FortuneTeller
         {
             //Part 1
             //Collect user input & initialize variables
+            //Each time input is required from user, include option to end program by typing "quit"
 
             Console.WriteLine("Welcome to the Virtual Fortune Teller\n");
             Console.WriteLine("If at any point you wish to exit the Fortune Teller, enter \"Quit\"\n");
@@ -184,12 +185,11 @@ namespace FortuneTeller
             }
                 else
             {
-                location = "Syria";
+                location = "a trailer park";
             }
 
             //Determine mode of transportation
-
-
+            
             switch (color)
             {
                 case "red":
